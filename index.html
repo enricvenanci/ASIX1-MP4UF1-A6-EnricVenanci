@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
+    <link rel="stylesheet" href="estils.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./resources/bicycle-solid.svg">
 </head>
 
 <body>
@@ -17,11 +23,11 @@
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
             <li>Simple selectors (select elements based on name, id, class)</li>
-            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
-            <li>Pseudo-class selectors (select elements based on a certain state)
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">Combinator selectors</a> (select elements based on a specific relationship between them)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">Pseudo-class selectors</a> (select elements based on a certain state)
             </li>
-            <li>Pseudo-elements selectors (select and style a part of an element)</li>
-            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">Pseudo-elements selectors</a>  (select and style a part of an element)</li>
+            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp" target="_blank">Attribute selectors</a>  (select elements based on an attribute or attribute value)</li>
         </ul>
     </div>
     <hr>
@@ -51,9 +57,55 @@
             <h3>CSS Syntax</h3>
             <img src="./resources/regla_css.jpg" alt="">
         </div>
-        <div>
+        <div id="tabla1">
             <h3>All CSS Simple Selectors</h3>
-            <img src="./resources/selectors.png" alt="">
+            <div><table >
+            
+                <tr>
+                    <td><strong>Selector</strong></td>
+                    <td><strong>Example</strong> </td>
+                    <td><strong>Example description</strong> </td>
+                </tr>
+
+                <tr class="gris">
+                    <td class="underline">#id</td>
+                    <td>#firstname</td>
+                    <td>Selects the element with id="firstname"</td>
+                </tr>
+
+                <tr>
+                    <td class="underline">.class</td>
+                    <td>.intro</td>
+                    <td>Selects all the elements with class="intro"</td>
+                </tr>
+
+                <tr class="gris">
+                    <td class="underline">element.class</td>
+                    <td>p.intro</td>
+                    <td>Selects only <p> elements with class="intro"</td>
+                </tr>
+
+                <tr>
+                    <td class="underline">*</td>
+                    <td>*</td>
+                    <td>Selects all elements</td>                    
+                </tr>
+
+                <tr class="gris">
+                    <td class="underline">element</td>
+                    <td>p</td>
+                    <td>Selects all <p> elements</td>
+                </tr>
+
+                <tr>
+                    <td class="underline">element,element,..</td>
+                    <td>div, p</td>
+                    <td>Selects all <div> elements and all <p> elements</td>
+                    
+                </tr>
+            </table>
+        </div>
+            
         </div>
     </div>
 
