@@ -30,7 +30,7 @@ h1 {
 
 /*Regla 6*/
 #universal { 
-    color: lig
+    color: lightgoldenrodyellow;
 }
 
 /*Regla 7*/
@@ -87,3 +87,12 @@ table {
     background-color: rgb(184, 181, 181);
 }
 
+#tablaA {
+    border: solid 1px rgb(184, 181, 181);
+}
+
+#tablaB {
+    border: solid 1px darkcyan;
+    padding: 0.5%;
+    border-radius: 1%;
+}
